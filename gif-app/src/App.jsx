@@ -3,8 +3,8 @@ let num =2;
 function App() {
 
   //estado
-  const [num,setNum] = useState(1);
-  const sumar = () =>{
+  const [num,setNum] = useState(1);//setNum es lo que nos permite actualizar la variable
+  const sumar = () =>{             //siempre es el nombre de la variable y despues set y el nombre de la variable
     setNum(num+1);
   }
   return (
